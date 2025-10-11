@@ -11,15 +11,8 @@ This project demonstrates a multi-agent routing pattern using the **Google Agent
 * **Python 3.9+**
 * A **Google API Key** for accessing the Gemini API.
 
-### 2. Installation
 
-Install the required Python packages:
-
-```bash
-pip install google-adk nest-asyncio
-```
-
-### 3. API Key Configuration
+### 2. API Key Configuration
 The code requires your Google API Key to authenticate API calls.
 
 **Recommended Method: Environment Variable**
@@ -35,6 +28,7 @@ Set the `GOOGLE_API_KEY` environment variable in your terminal before running th
     $env:GOOGLE_API_KEY="YOUR_API_KEY_HERE"
     ```
 
+or create the .env file with GOOGLE_API_KEY outside. 
 > **Note:** The line `os.environ['GOOGLE_API_KEY'] = 'GOOGLE_API_KEY'` in the Python file is a placeholder. For successful execution, ensure your actual key is set via the environment variable method above.
 
 ---
@@ -49,7 +43,7 @@ Set the `GOOGLE_API_KEY` environment variable in your terminal before running th
     python coordinator_example.py
     ```
 
-### Execution Flow and Delegation
+### 3. Execution Flow and Delegation
 
 The script runs four test requests to showcase automatic delegation:
 
