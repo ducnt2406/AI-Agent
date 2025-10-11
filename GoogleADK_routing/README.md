@@ -10,6 +10,7 @@ This project demonstrates a multi-agent routing pattern using the **Google Agent
 
 * **Python 3.9+**
 * A **Google API Key** for accessing the Gemini API.
+* Google-ADK library installed
 
 
 ### 2. API Key Configuration
@@ -35,12 +36,12 @@ or create the .env file with GOOGLE_API_KEY outside.
 
 ## ▶️ How to Run the Code
 
-1.  **Save the Code:** Save the provided Python code into a file named `coordinator_example.py`.
+1.  **Save the Code:** Save the provided Python code into a file named `02-rouuting-google-adk.py`.
 
 2.  **Execute the Script:** Run the file from your terminal:
 
     ```bash
-    python coordinator_example.py
+    python 02-rouuting-google-adk.py
     ```
 
 ### 3. Execution Flow and Delegation
